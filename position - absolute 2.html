@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title> position - absolute 2 </title>
+ <style>
+
+   .fabox{ width : 700px;
+           height : 700px;
+           position : relative;
+           margin : 0 auto;
+           border : 1px solid black;}
+
+   .box{  width : 50px;
+          height : 50px;
+          background-color : red;
+          color : white;
+          text-align : center;}
+
+    .box1 {position : absolute;
+           top :  0px;
+           left : 0px;}
+
+    .box2{position : absolute;
+          top : 0px;
+          right : 0px;}
+    .box3{position : absolute;
+          bottom : 0px;
+          right : 0px;}
+    .box4{ position : absolute;
+         bottom : 0px;
+         left : 0px;}
+    .box5{ position :absolute;
+          left : 46.43%;
+          top : 46.43%;}
+
+    .box6{position : absolute;
+         top : 46.43%;
+         left : 46.43%;
+         background-color : blue;}
+
+    /*  센터 위치는 표시되는 도형의 반지름의 크기만큼을 좌표에서 빼주면 중앙의 위치에
+          도형을 놓을수있다. */
+
+
+
+
+ </style>
+</head>
+  <body>
+   <div class="fabox">
+     <div class="box box1">박스 1</div>
+     <div class="box box2">박스 2</div>
+     <div class="box box3">박스 3</div>
+     <div class="box box4">박스 4</div>
+     <div class="box box5">박스 5</div>
+     <div class="box box6">박스 6</div>
+</div>
+</body>
+</html>
